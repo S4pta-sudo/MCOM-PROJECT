@@ -55,11 +55,11 @@ with col1:
 with col3:
     st.header("Question: Distractions and the role social media has in it")
     st.subheader("")
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\difficulty_in_concentration.jpg", caption="Fig 6: The participants started out with carying attention spans.", width=600)
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\distraction_by_social_media.jpg", caption="Fig 7: The lack of concentration on work leads to suseptability to social media distractions.", width=600)
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\distribution_ADHD.jpg", caption="Fig 8: The distribution in ADHD, type unspecified, in the participants, similar to figure 1.", width=600)
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\easeily_distracted.jpg", caption="Fig 9: direct correlation with figure 6, though with questionable readings.", width=600)
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\restless_without_media.jpg", caption="Fig 10: restlessness of a person without social media.", width=600)
+    st.image("difficulty_in_concentration.jpg", caption="Fig 6: The participants started out with carying attention spans.", width=600)
+    st.image("distraction_by_social_media.jpg", caption="Fig 7: The lack of concentration on work leads to suseptability to social media distractions.", width=600)
+    st.image("distribution_ADHD.jpg", caption="Fig 8: The distribution in ADHD, type unspecified, in the participants, similar to figure 1.", width=600)
+    st.image("easeily_distracted.jpg", caption="Fig 9: direct correlation with figure 6, though with questionable readings.", width=600)
+    st.image("restless_without_media.jpg", caption="Fig 10: restlessness of a person without social media.", width=600)
     
     st.header("**THE ANALYITCAL FAX:**")
     st.subheader("* figures 6 and 7 have a direct correlation with eachother, considering that someone who cannot concentrate is someone who is easily distracted.")
