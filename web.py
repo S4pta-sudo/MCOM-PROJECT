@@ -34,11 +34,11 @@ with col1:
     
     st.header("Question: the effect of social media on a person's self-esteem, is there a correlation?")
     st.subheader("")
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\self-esteem distribution.jpg", caption="Fig 1:the longer people use social media, the lower their self-esteem becomes.", width=600)
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\validation_from_social_media.jpg", caption="Fig 2:1 would be posting to make people laugh, seeking validation, while 5 would be making fun of murder for clout.", width=600)
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\meaniingless_media.jpg", caption="Fig 3:tendency for people to scroll aimlessly.", width=600)
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\comparing_urself_using_social_media.jpg", caption="Fig 4: tendency for people to compare their current state to that of the successes they see on social media.", width=600)
-    st.image(r"C:\Users\naser\OneDrive\Desktop\UNI\MEDIA AND SOCIETY SUMMER\project\images\distribution_of_mental_health.jpg", caption="Fig 5: distribution of all participants and how much they suffer from mental illness, prioir to the dataset being made.", width=600)
+    st.image("self-esteem distribution.jpg", caption="Fig 1:the longer people use social media, the lower their self-esteem becomes.", width=600)
+    st.image("validation_from_social_media.jpg", caption="Fig 2:1 would be posting to make people laugh, seeking validation, while 5 would be making fun of murder for clout.", width=600)
+    st.image("meaniingless_media.jpg", caption="Fig 3:tendency for people to scroll aimlessly.", width=600)
+    st.image("comparing_urself_using_social_media.jpg", caption="Fig 4: tendency for people to compare their current state to that of the successes they see on social media.", width=600)
+    st.image("distribution_of_mental_health.jpg", caption="Fig 5: distribution of all participants and how much they suffer from mental illness, prioir to the dataset being made.", width=600)
     
     st.header("**THE ANALYITCAL FAX:**")
     st.subheader("* through the graphs above, the more people use social media, the more desperate they become for attention, as shown in figure 2.")
