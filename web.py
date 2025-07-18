@@ -15,9 +15,10 @@ st.title("MCOMM project site")
 
 
 st.header("INTRODUCTION")
-st.subheader("In recent years, social media has become deeply embedded in modern life. While these platforms provide entertainment and a sense of connection, they also raise serious concerns about mental well-being, identity, and self-worth. Our project examines these issues by analyzing data from a Kaggle dataset and visualizing key patterns in behavior and psychology. We focus on the effects of prolonged social media use, particularly regarding distraction, self-esteem, and the need for validation. The following figures explore the complex relationship between digital habits and mental health indicators—including attention disorders, emotional reliance on online engagement, and comparison-driven dissatisfaction.\n\n\n\n\n\n")
+st.subheader("In recent years, social media has become deeply embedded in modern life. While these platforms provide entertainment and a sense of connection, they also raise serious concerns about mental well-being, identity, and self-worth. Our project examines these issues by analysing data from a Kaggle dataset and visualizing key patterns in behaviour and psychology. We focus on the effects of prolonged social media use, particularly regarding distraction, self-esteem, and the need for validation. The following figures explore the complex relationship between digital habits and mental health indicators—including attention disorders, emotional reliance on online engagement, and comparison-driven dissatisfaction..\n\n\n\n\n\n")
 # Create columns for layout
 st.header("BODY AND DISCUSSION")
+st.subheader("To explore the psychological impact of social media, we focused on two central areas: self-esteem and distraction. Using visual data from the Kaggle dataset, we analysed patterns in user behaviour, emotional responses, and mental health indicators. The figures below are grouped into two sections—each addressing a core question at the heart of our research.")
 col1, col2, col3, = st.columns([3, 1,3])
 
 # with col3:
@@ -31,14 +32,14 @@ col1, col2, col3, = st.columns([3, 1,3])
 
 
 with col1:
-    
+    st.header("This section examines how prolonged social media use influences self-esteem, emotional reliance, and the pursuit of validation. The visualizations explore trends in how users engage with content, seek approval, and compare themselves to others.")
     st.header("Question: the effect of social media on a person's self-esteem, is there a correlation?")
     st.subheader("")
-    st.image("self-esteem distribution.jpg", caption="Fig 1:the longer people use social media, the lower their self-esteem becomes.", width=600)
-    st.image("validation_from_social_media.jpg", caption="Fig 2:1 would be posting to make people laugh, seeking validation, while 5 would be making fun of murder for clout.", width=600)
-    st.image("meaniingless_media.jpg", caption="Fig 3:tendency for people to scroll aimlessly.", width=600)
-    st.image("comparing_urself_using_social_media.jpg", caption="Fig 4: tendency for people to compare their current state to that of the successes they see on social media.", width=600)
-    st.image("distribution_of_mental_health.jpg", caption="Fig 5: distribution of all participants and how much they suffer from mental illness, prioir to the dataset being made.", width=600)
+    st.image("self-esteem distribution.jpg", caption="Fig 1:Self-Esteem Decline with Screen Time.", width=600)
+    st.image("validation_from_social_media.jpg", caption="Fig 2:Emotional Reliance on Social Media Validation.", width=600)
+    st.image("meaniingless_media.jpg", caption="Fig 3: Frequency of ‘Doom Scrolling’.", width=600)
+    st.image("comparing_urself_using_social_media.jpg", caption="Fig 4: Frequency of Social Comparisons to Successful Individuals in Social Media.", width=600)
+    st.image("distribution_of_mental_health.jpg", caption="Fig 5: Mental Health Scores Among Social Media Users.", width=600)
     
     st.header("**THE ANALYITCAL FAX:**")
     st.subheader("* through the graphs above, the more people use social media, the more desperate they become for attention, as shown in figure 2.")
@@ -53,13 +54,14 @@ with col1:
     st.link_button("world journal of advanced research and reviews","https://wjarr.com/sites/default/files/WJARR-2024-3027.pdf?utm_source=chatgpt.com")
 
 with col3:
+    st.header("This section focuses on attention span, digital restlessness, and the potential relationship between social media and disorders like ADHD. The figures explore how easily users are distracted and how dependent they may be on constant online engagement.")
     st.header("Question: Distractions and the role social media has in it")
     st.subheader("")
-    st.image("difficulty_in_concentration.jpg", caption="Fig 6: The participants started out with carying attention spans.", width=600)
-    st.image("distraction_by_social_media.jpg", caption="Fig 7: The lack of concentration on work leads to suseptability to social media distractions.", width=600)
-    st.image("distribution_ADHD.jpg", caption="Fig 8: The distribution in ADHD, type unspecified, in the participants, similar to figure 1.", width=600)
-    st.image("easeily_distracted.jpg", caption="Fig 9: direct correlation with figure 6, though with questionable readings.", width=600)
-    st.image("restless_without_media.jpg", caption="Fig 10: restlessness of a person without social media.", width=600)
+    st.image("difficulty_in_concentration.jpg", caption="Fig 6: Difficulty in Concentrating.", width=600)
+    st.image("distraction_by_social_media.jpg", caption="Fig 7: Frequency of Being Distracted From Work By Social Media.", width=600)
+    st.image("distribution_ADHD.jpg", caption="Fig 8: Severity of Self-Reported ADHD Symptoms Among Social Media Users.", width=600)
+    st.image("easeily_distracted.jpg", caption="Fig 9: Distraction Levels Among Social Media Users.", width=600)
+    st.image("restless_without_media.jpg", caption="Fig 10: Prevalence of Restlessness During Social Media Abstinence.", width=600)
     
     st.header("**THE ANALYITCAL FAX:**")
     st.subheader("* figures 6 and 7 have a direct correlation with eachother, considering that someone who cannot concentrate is someone who is easily distracted.")
