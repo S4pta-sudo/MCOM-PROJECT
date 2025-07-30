@@ -110,10 +110,8 @@ section[data-testid="stSidebar"] h3 {
 </style>
 """, unsafe_allow_html=True)
 
-# Main title - replace with your title
 st.title("MCOMM project site")
 
-# Subtitle (optional)
 
 
 st.header("INTRODUCTION")
@@ -122,13 +120,6 @@ st.subheader("In recent years, social media has become deeply embedded in modern
 st.header("BODY AND DISCUSSION")
 st.subheader("To explore the psychological impact of social media, we focused on two central areas: self-esteem and distraction. Using visual data from the Kaggle dataset, we analysed patterns in user behaviour, emotional responses, and mental health indicators. The figures below are grouped into two sections—each addressing a core question at the heart of our research.")
 col1, col2, col3, = st.columns([3, 1,3])
-
-# with col3:
-#     st.subheader("made by:")
-#     st.subheader('Abdul Naser Maamon Rabie')
-#     st.subheader('Zaid Aburuman')
-#     st.subheader('najeeb')
-#     st.subheader('eisa')
 
 
 
@@ -177,58 +168,6 @@ with col3:
     st.link_button("youtube video discussing our topics","https://youtu.be/FZvee3-PEzo?si=lqVfvh3pzq448frZ")
     st.link_button("baptist health article", "https://www.baptisthealth.com/blog/family-health/how-social-media-affects-attention-span")
     
-
-# Section with labels and content
-
-
-# # Labels with content
-
-# st.write("Content for label 1 goes here")
-
-# st.write("**YOUR_LABEL_2:**")
-# st.write("Content for label 2 goes here")
-
-# st.write("**YOUR_LABEL_3:**")
-# st.write("Content for label 3 goes here")
-
-# # Buttons section
-# st.header("Interactive Elements")
-
-# # Create columns for buttons
-# button_col1, button_col2, button_col3 = st.columns(3)
-
-# with button_col1:
-#     if st.button("YOUR_BUTTON_1_LABEL"):
-#         st.success("Button 1 clicked! Add your functionality here.")
-
-# with button_col2:
-#     if st.button("YOUR_BUTTON_2_LABEL"):
-#         st.info("Button 2 clicked! Add your functionality here.")
-
-# with button_col3:
-#     if st.button("YOUR_BUTTON_3_LABEL"):
-#         st.warning("Button 3 clicked! Add your functionality here.")
-
-# # Additional interactive elements
-# st.header("More Interactive Elements")
-
-# # Text input with custom label
-# user_input = st.text_input("YOUR_INPUT_LABEL_HERE", placeholder="Enter your text here")
-
-# # Selectbox with custom label
-# option = st.selectbox("YOUR_SELECTBOX_LABEL_HERE", ["Option 1", "Option 2", "Option 3"])
-
-# # Slider with custom label
-# slider_value = st.slider("YOUR_SLIDER_LABEL_HERE", 0, 100, 50)
-
-# # Display user selections
-# if user_input:
-#     st.write(f"You entered: {user_input}")
-
-# st.write(f"You selected: {option}")
-# st.write(f"Slider value: {slider_value}")
-
-# Sidebar with additional content
 st.sidebar.header("media and sociey project website:")
 st.sidebar.write("**Abdul Naser Maamon Rabie, 202211579**")
 st.sidebar.write("**Zaid Aburuman**, 202108408")
@@ -237,13 +176,6 @@ st.sidebar.write("**eisa Al-Malki, 202102387**")
 
 
 
-# # Sidebar image placeholder
-# # st.sidebar.image("path_to_sidebar_image.jpg", caption="Sidebar image caption")
-# st.sidebar.write("🖼️ **SIDEBAR IMAGE PLACEHOLDER**")
-
-# # Sidebar button
-# if st.sidebar.button("YOUR_SIDEBAR_BUTTON_LABEL"):
-#     st.sidebar.success("Sidebar button clicked!")
 
 # Footer
 st.markdown("---")
@@ -255,29 +187,5 @@ st.subheader("Our analysis reveals a clear pattern: excessive social media use i
     "Ultimately, the findings highlight the need for greater awareness around how digital habits affect mental health. As Gen Z continues to navigate an online world optimized for engagement, fostering healthier, more intentional use of social media is essential."
 )
 st.link_button("the original dataset from kaggle","https://www.kaggle.com/datasets/souvikahmed071/social-media-and-mental-health?.com")
-# Instructions for customization (remove this section when deploying)
-# st.markdown("---")
-# st.markdown("### 📝 Customization Instructions:")
-# st.markdown("""
-# **Replace the following placeholders:**
-# - `YOUR_TAB_NAME_HERE` - Name that appears in the browser tab
-# - `YOUR_MAIN_TITLE_HERE` - Main page title
-# - `YOUR_SECTION_HEADER_HERE` - Section headers
-# - `YOUR_LABEL_1`, `YOUR_LABEL_2`, etc. - Custom labels for your content
-# - `YOUR_BUTTON_1_LABEL`, `YOUR_BUTTON_2_LABEL`, etc. - Button text
-# - `YOUR_INPUT_LABEL_HERE` - Label for text input
-# - `YOUR_SELECTBOX_LABEL_HERE` - Label for dropdown menu
-# - `YOUR_SLIDER_LABEL_HERE` - Label for slider
-# - `YOUR_SIDEBAR_TITLE_HERE` - Sidebar title
-# - `YOUR_FOOTER_TEXT_HERE` - Footer text
 
-# **For images:**
-# - Uncomment the `st.image()` lines and replace with your image paths
-# - Supported formats: PNG, JPG, JPEG, GIF, SVG
 
-# **To run this app:**
-# ```bash
-# pip install streamlit pillow
-# streamlit run your_app_name.py
-# ```
-# """)
