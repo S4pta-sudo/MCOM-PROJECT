@@ -66,6 +66,47 @@ section[data-testid="stSidebar"] h3 {
     color: #1f6feb !important;
     font-weight: bold;
 }
+@media only screen and (max-width: 600px) {
+    /* Scale down titles */
+    h1 {
+        font-size: 1.8rem !important;
+    }
+    h2 {
+        font-size: 1.4rem !important;
+    }
+    h3, h4 {
+        font-size: 1.1rem !important;
+    }
+    
+    /* Reduce padding/margin around main containers */
+    .css-18e3th9, /* main block container */
+    .css-1d391kg, /* section containers */
+    .css-1lcbmhc, /* columns */
+    .css-1v3fvcr { /* text containers */
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    /* Make sidebar full width on mobile */
+    section[data-testid="stSidebar"] {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        padding: 0.5rem !important;
+        z-index: 1000;
+    }
+    
+    /* Adjust button font size */
+    div.stButton > button {
+        font-size: 1rem !important;
+        padding: 0.5rem 1rem !important;
+    }
+    
+    /* Images scale to full width */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
