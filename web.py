@@ -7,6 +7,67 @@ st.set_page_config(
     page_icon="🌟",  # You can change this emoji or use a custom icon
     layout="wide"
 )
+st.markdown("""
+<style>
+/* 🌌 General background + font */
+body, .stApp {
+    background-color: #0a0a23;
+    color: #7142D4;
+    font-family: 'Comic Neue', cursive;
+    
+}
+
+/* 🎯 Title, headers, subheaders */
+h1, h2, h3 {
+    color: #7142D4;
+    font-family: 'Brushstroke';
+    font-weight: 800;
+}
+
+/* 🔗 Link-style buttons */
+div.stButton > link_button {
+    background-color: transparent;
+    color: #1f6feb;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    padding: 0.4em 0.8em;
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+div.stButton > button:hover {
+    color: #4ea3ff;
+    background-color: rgba(31, 111, 235, 0.1);
+    cursor: pointer;
+}
+
+/* 🎛 Sidebar styles */
+section[data-testid="stSidebar"] {
+    background-color: #11111f ;
+    color: #e0e0e0;
+    font-family: 'papyrus';
+}
+
+/* Sidebar content styling (updated selector) */
+section[data-testid="stSidebar"] > div {
+    color: #1f6feb;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'papyrus';
+}
+
+/* Additional sidebar element selectors for broader compatibility */
+section[data-testid="stSidebar"] .css-ng1t4o,
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #1f6feb !important;
+    font-weight: bold;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Main title - replace with your title
 st.title("MCOMM project site")
